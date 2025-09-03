@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="bt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=PT+Sans&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Projeto Santander</title>
+</head>
+<body>
+    <div class="container-top">
+       <img class="logo" src="./img/logo-santander.svg" alt="lgo Santander">
+       
+       <a class="link-voce">Para você</a>
+       <a class="link-empresa">Para sua Empresa</a>       
+       
+       <input type="text" class="input-with-icon" placeholder="O que voçê procura ?" class="sem-borda">  
+    
+  <select class="list-menu">
+    <option value="pessoa-fisica">Pessoa Física </option>
+    <option value="pessoa-juridica">Pessoa Juridica </option> 
+  </select>
+   <input type="text" class="input-with-dados" placeholder="insira seu CPF" class="dados">  
+
+  <div class="btn-abrir-menu" id="btn-menu">
+   <img src="https://img.icons8.com/?size=100&id=8113&format=png&color=000000" alt="hamburguer">
+  </div>
+
+   <div class="menu-mobile" id="menu-mobile">
+  <div class="btn-fechar">
+    <img src="https://img.icons8.com/?size=100&id=CKkTANal1fTY&format=png&color=000000" alt="fechar"> 
+  </div>
+   <nav>
+  <ul>
+    <li>
+    <a href="">Meu dia a dia</a>
+  </li>
+    <li>
+    <a href="">Produtos e Serviços</a>
+  </li>
+    <li >
+    <a href="">Open Finance</a>
+  </li>
+    <li>
+    <a href="">Atendimento</a>
+  </li>
+    <li >
+    <a href="">Segurança</a>
+  </li>
+    <li>
+    <a href="">Agências</a>
+  </li>
+    <li>
+    <a href="">Blog</a>
+  </li>
+</ul>
+</nav>
+
+</div> <!---Menu mobile-->
+  <div class="overlay-menu" id="overlay-menu"></div>  
+
+
+ </div> <!---interface -->   
+
+ <nav class="menu-desk">
+  <ul>
+    <li>
+    <a href="">Meu dia a dia</a>
+  </li>
+    <li>
+    <a href="">Produtos e Serviços</a>
+  </li>
+    <li >
+    <a href="">Open Finance</a>
+  </li>
+    <li>
+    <a href="">Atendimento</a>
+  </li>
+    <li >
+    <a href="">Segurança</a>
+  </li>
+    <li>
+    <a href="">Agências</a>
+  </li>
+    <li>
+    <a href="">Blog</a>
+  </li>
+</ul>
+</nav>
+
+<div class="slider">
+ 
+ <div class="slides">
+ <!--radio buttons -->
+ <input type="radio" name="radio-btn" id="radio1">
+ <input type="radio" name="radio-btn" id="radio2">
+ <input type="radio" name="radio-btn" id="radio3">
+ <input type="radio" name="radio-btn" id="radio4">
+  <!-- fim radio buttons -->
+  
+  <!--slide imagen -->
+  <div class="slide first">
+    <img src="./img/background1.png" alt="imagem1">
+  </div>
+  <div class="slide">
+    <img src="./img/background2.png" alt="imagem1">
+  </div>
+    <div class="slide">
+    <img src="./img/background3.png" alt="imagem1">
+  </div>
+    <div class="slide">
+    <img src="./img/background4.png" alt="imagem1">
+  </div>
+    <!--fim slide imagen -->
+   
+    <!--navigation auto -->
+    <div class="navigation-auto">
+      <div class="auto-btn1"></div>
+      <div class="auto-btn2"></div>
+      <div class="auto-btn3"></div>
+      <div class="auto-btn4"></div>
+    </div>
+</div>
+
+<div class="manual-navigation">
+   <label for="radio1" class="manual-btn"></label>
+   <label for="radio2" class="manual-btn"></label>
+   <label for="radio3" class="manual-btn"></label>
+   <label for="radio4" class="manual-btn"></label>
+   
+</div>
+
+</div>
+
+
+<script src="./script.js"></script>
+
+<section class="servicos">
+  <h2>Dá uma olhadinha em tudo que temos</h2>
+   <ul class="section">
+    <li>
+      <img src="./img/icon-abra-sua-conta.svg" alt="abra-sua-conta" class="img-produtos">
+      <p>abra sua conta</p>    
+    </li>
+       <li>
+      <img src="./img/icon-maquina-getnet.svg" alt="getnet" class="img-produtos">
+      <p>Getnet</p>    
+    </li>
+       <li>
+      <img src="./img/icon-peca-seu-cartao.svg" alt="peca-seu-cartao" class="img-produtos">
+      <p>Peça seu cartão</p>    
+    </li>
+       <li>
+      <img src="./img/capitalgiro.svg" alt="capitalgiro" class="img-produtos">
+      <p>Capital de giro</p>    
+    </li>
+       <li>
+      <img src="./img/icon-renegocie-sua-divida.svg" alt="nenegociesuadivida" class="img-produtos">
+      <p>Renegocie sua dívida</p>    
+    </li>
+       <li>
+      <img src="./img/pagamentos.svg" alt="pagamentos" class="img-produtos">
+      <p>Pagamentos</p>    
+    </li>
+   </ul>
+</section>
+
+<section class="importante">
+  <h2>Importante para você</h2>
+  <div class="section-importante">
+    <div class="espaco-entre">
+       <div >
+        <img src="./img/importante.img.png" alt="">
+      </div>  
+       <div>
+        <img src="./img/importante.img2.png" alt="">
+      </div>  
+    </div>
+  </div> 
+</section>
+</section>
+
+  <!-- bloco auto atendimento-->
+
+<section class="bloco-autoatendimento">
+  <div> 
+  <h2>Facilite seu dia a dia com nosso autoatendimento</h2>  
+  </div>
+  
+<div class="container1">
+  <div class="card-box">
+   <img src="https://www.santander.com.br/sites/WPC_CMS/imagem/23-05-22_190008_M_ic_card_invoice.svg" class="card_invoice">
+  <h3 class="section-menu"> Fatura do cartão</h3> 
+ </div>
+
+ <div class="card-box">
+  <img src="https://www.santander.com.br/sites/WPC_CMS/imagem/23-05-17_174708_M_ic_copy.svg" alt="" class="card_invoice">
+  <h3 class="section-menu">2 Via do Cartão</h3> 
+ </div>
+<div class="card-box">
+   <img src="https://www.santander.com.br/sites/WPC_CMS/imagem/23-05-17_174903_M_ic_bill_payment.svg" alt="peca-seu-cartao" class="card_invoice">
+  <h3 class="section-menu">Pegar as contas</h3> 
+ </div>
+ <div class="card-box">
+     <img src="https://www.santander.com.br/sites/WPC_CMS/imagem/23-05-17_175101_M_ic_internet_banking.svg" class="card_invoice">
+  <h3 class="section-menu">Acesso não correntista</h3> 
+ </div>
+ <div class="card-box">
+   <img src="https://www.santander.com.br/sites/WPC_CMS/imagem/23-05-17_175412_M_ic_bank_statement.svg" alt="" class="card_invoice">
+  <h3 class="section-menu">Consulta de extrato</h3> 
+ </div>
+ <div class="card-box">
+   <img src="https://www.santander.com.br/sites/WPC_CMS/imagem/23-05-17_175616_M_ic_mobile.svg" class="card_invoice">
+  <h3 class="section-menu">Aplicativo Santander</h3> 
+ </div>
+</div>
+       
+
+  <!--Duvida serviços-->
+
+<div class="duvida-servicos">  
+     Tem alguma dúvida sobre os serviços? <a href="/">Acesse nossa Central de Atendimento</a>
+</div>
+  
+  <!--bloco Parceiros -->
+
+<section class="bloco-parceiros">
+  <div class="container2">
+<h2 >Confira outros produtos dos nossos parceiros</h2>
+ <div>
+
+<article class="slider-parceiros">     
+  <div class="car-divider">  
+    <img class="auto-compara-img" src="https://www.santander.com.br/sites/WPC_CMS/imagem/25-05-08_144303_M_produtosparceiros-autocompara-pf.svg" alt="">
+   <hr class="hr">      
+     <h3 class="custom-display">Seguro auto, rápido e fácil</h3>       
+      <ul class="lista-parceiros">
+        <li>Cote com até 11 seguradoras</li>
+        <li>Preços exclusivos para Santander</li>
+        <li>Vistoria descomplicada</li>
+    </ul>
+<div class="display-botton">
+ <span class="btn-button">Saiba mais</span>
+</div>
+  </div>
+
+    <div class="car-divider">  
+   <img src="https://www.santander.com.br/sites/WPC_CMS/imagem/25-05-08_144428_M_produtosparceiros-fit-energia-pf.svg" alt="">
+   <hr class="hr"> 
+     <h3 class="custom-display">Seguro auto, rápido e fácil</h3>       
+      <ul class="lista-parceiros">
+        <li>Cote com até 11 seguradoras</li>
+        <li>Preços exclusivos para Santander</li>
+         <li>Cote com até 11 seguradoras</li>
+        <li>Preços exclusivos para Santander</li>
+        <li>Vistoria descomplicada</li>
+    </ul>
+<div class="display-botton">
+ <span class="btn-button">Saiba mais</span>
+</div>
+  </div>
+
+  <div class="car-divider">  
+  <img src="https://www.santander.com.br/sites/WPC_CMS/imagem/25-05-08_144351_M_produtosparceiros-getnet-pf.svg" alt="">
+  <hr class="hr"> 
+     <h3 class="custom-display">Seguro auto, rápido e fácil</h3>       
+      <ul class="lista-parceiros">
+        <li>Receba em até 2 dias úteis com antecipação de vendas</li>
+        <li>Venda online com o link de pagamento e WhatsApp Pay sem mensalidade</li>
+        <li>Vistoria descomplicada</li>
+    </ul>
+<div class="display-botton">
+ <span class="btn-button">Saiba mais</span>
+</div>
+  </div>
+</article>  
+  </div>
+</section>  
+
+<footer> 
+   <div class="container">
+    <ul>
+    <h3>Produtos e Serviços</h3>
+      <li><a href="/">Conta corrent</a></li>
+      <li><a href="/">Cartões de crédito</a></li>
+      <li><a href="/">Seguros</a></li>
+      <li><a href="/">Crédito e Financiamentos</a></li>
+      <li><a href="/">Investimentos</a></li>
+      <li><a href="/">Tarifas e pacotes de serviços</a></li>
+      <li><a href="/">Para sua Empresa</a></li>
+   </ul>
+    <ul>
+       <h3>Santander</h3>
+      <li><a href="/">Sobre nós</a></li>
+      <li><a href="/">Educação Financeira</a></li>
+      <li><a href="/">Trabalhe conosco</a></li>
+      <li><a href="/">Sustentabilidade</a></li>
+      <li><a href="/">Relações com Investidores</a></li>
+      <li><a href="/">Imprensa</a></li>
+      <li><a href="/">Análises Econômicas</a></li>
+      <li><a href="/">Definições de Cookies</a></li>
+
+    </ul>
+    <ul>
+      <h3>Fale com a gente</h3>
+        <li><a href="/">Central de Atendimento</a></li>
+        <li><a href="/">Central de Renegociação</a></li>  
+        <li><a href="/">S.A.C</a></li>
+        <li><a href="/">Ouvidoria</a></li>
+        <li><a href="/">Encontre nossas agências</a></li>
+        <li><a href="/">Horários de Atendimento</a></li>
+        <li><a href="/">Telefones</a></li>
+        <li><a href="/">Segurança</a></li>
+        <li><a href="/">Ética – Canal de denúncia</a></li>
+    </ul>
+    <ul>
+      <h3 class="redes">Redes sociais</h3>
+        <div class="redes-social">
+            <img src="https://www.santander.com.br/sites/WPC_CMS/imagem/21-03-26_095020_M_ic-social-facebookk.svg" alt="facebookk">
+            <img src="https://www.santander.com.br/sites/WPC_CMS/imagem/21-03-26_095020_M_ic-social-instagramm.svg" alt="instagramm">
+            <img src="https://www.santander.com.br/sites/WPC_CMS/imagem/21-03-26_095020_M_ic-social-linkedin.svg" alt="linkedin">
+            <img src="https://www.santander.com.br/sites/WPC_CMS/imagem/23-11-13_170449_M_ic-twitter-white.svg" alt="twitter">
+            <img src="https://www.santander.com.br/sites/WPC_CMS/imagem/21-03-26_095020_M_ic-social-youtube.svg" alt="youtube">
+          </div>
+
+    </ul> 
+
+   </div>
+<hr class="hr">
+
+<div class="footer-display">
+    <div class="footer-end">
+    <p>© Clone do Site Banco Santander (Brasil-2025) S.A., CNPJ: 88.888.888/0001-00 </p>
+    <p> Av. Presidente Capitao Caverna 2041/2235 – Vila Olímpia – São Paulo/SP. </p>
+    <p>Desenvolvido por Pedro Douglas Rondão</p>
+ </div>
+
+ <div class="footer-itens">
+  <p>Política de Privacidade</p>
+  <p> Segurança</p>
+ </div> 
+
+</footer>
+
+
+
+</body>
+</html>
